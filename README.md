@@ -1,12 +1,26 @@
-# React + Vite
+# Registration Form with Firebase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple registration form built with React and Firebase. It allows users to register by providing their **full name**, **email**, **phone number**, and **gender**. The data is then submitted to **Firebase Firestore** for storage.
 
-Currently, two official plugins are available:
+## Features
+- Registration form with **full name**, **email**, **phone number**, and **gender**.
+- **Firebase** integration for storing form data in **Firestore**.
+- Form submission with basic error handling.
+- Gender selection using **radio buttons**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React**: Frontend library for building the user interface.
+- **Firebase**: Backend for storing the user registration data in **Firestore**.
+- **Tailwind CSS**: For styling the components.
 
-## Expanding the ESLint configuration
+## Setup Instructions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+Ensure you have **Node.js** and **npm** installed on your machine. You can download them from the official site: [Node.js](https://nodejs.org/).
+
+### 1. Clone the Repository
+
+Clone the project to your local machine:
+
+```bash
+git clone https://github.com/your-username/registration-form-firebase.git
